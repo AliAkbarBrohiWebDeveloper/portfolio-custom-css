@@ -1,0 +1,38 @@
+.skills-main-dev{
+
+    margin-top: 2.25rem;
+}
+.skills-dev{
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 2.25rem ;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.image-main-dev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.25rem;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.para-sec{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.75rem
+}
+.desc-sec{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5rem
+
+
+}
+
+
+@media(min-width:768px){
+    .image-main-dev{
+        flex-direction: row;
+    }
+}

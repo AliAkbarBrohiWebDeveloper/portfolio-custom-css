@@ -1,0 +1,10 @@
+.main-footer{
+    text-align: center;
+
+    font-size: 1.25rem ;
+    line-height: 1.75rem ;
+    font-weight: 600;
+    margin-top: 2.25rem;
+    background-color: black;
+    color: white;
+}

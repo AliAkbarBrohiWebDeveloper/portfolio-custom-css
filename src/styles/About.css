@@ -1,0 +1,71 @@
+.top-section{
+
+    margin-top:5rem;
+}
+.main1-dev{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.second-dev h3{
+
+text-align: center;
+color:  #14b8a6 ;
+text-decoration: underline;
+font-size: 1.5rem;
+line-height: 2rem;
+font-weight: 800px;
+}
+
+.second-dev p{
+    text-align: center;
+    max-width: 800px;
+    margin-top: 3rem;
+    font-weight: 500px;
+    color: #9ca3af ;
+
+
+}
+.main1-dev button{
+
+    background-color:  #14b8a6 ;
+    color: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 100px;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+
+
+}
+
+.last-dev-img{
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+    .main1-dev{
+        flex-direction: row;
+    }
+    .top-section{
+        margin-top: 5rem;
+    }
+    .main1-dev button{
+        margin-left: 330px;
+    }
+}
