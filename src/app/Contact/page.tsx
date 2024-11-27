@@ -27,7 +27,7 @@ const Contactpage = () => {
 <p>
 
 <label htmlFor="name"> Name: </label>
-<input type="text" placeholder='Enter your Name' />
+<input type="text" placeholder='Enter your Name' required />
 
 
 
@@ -36,7 +36,7 @@ const Contactpage = () => {
 
 <p>
 <label htmlFor="email">Email: </label>
-<input type="email" placeholder='Enter your Email here' />
+<input type="email" placeholder='Enter your Email here' required />
 
 
 </p>
@@ -44,8 +44,12 @@ const Contactpage = () => {
 
 <p>
 <label htmlFor="number">PH:No: </label>
-<input type="number"placeholder='Enter your Phone Number' />
+<input type="number"placeholder='Enter your Phone Number' required />
 
+
+</p>
+<p>
+<textarea placeholder="Your Message" rows={5} required></textarea>
 
 </p>
 <button className='Button'>Send Message</button>

@@ -3,6 +3,7 @@
     position: sticky;
     top: 0px;
     z-index: 10px;
+    background-color: beige;
 }
 
 
@@ -25,6 +26,7 @@
 }
 .ul-list1{
 display: flex;
+
     justify-content: space-between;
     display: none;
     margin-left: 2rem;
@@ -34,11 +36,15 @@ display: flex;
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        background-color: indigo;
+        background-color: beige;
         height: 250px;
         width: 250px;
-        color: white;
+        
         text-align: center;
+        border-radius: 5px;
+        margin-right: 10rem;
+        
+        
         
         
         

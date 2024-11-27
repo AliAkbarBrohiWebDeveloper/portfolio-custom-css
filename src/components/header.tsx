@@ -47,18 +47,19 @@ const toggleMenu=()=>{
     </div>
     
 </nav>
+
 {isMenuOpen&&(
  <ul>
  <li className={`ul-list    ${isMenuOpen ? "open" : ""}`}>
  
- <Link href={'/'} onClick={toggleMenu}>Home</Link>
+ <Link href={'/'} onClick={toggleMenu}>HOME</Link>
  
  
- <Link href={"/About"} onClick={toggleMenu}>About</Link>
+ <Link href={"/About"} onClick={toggleMenu}>ABOUT</Link>
  
  
  
- <Link href={'/Contact'} onClick={toggleMenu}> Contact us</Link>
+ <Link href={'/Contact'} onClick={toggleMenu}>CONTACT</Link>
  
  </li>
  

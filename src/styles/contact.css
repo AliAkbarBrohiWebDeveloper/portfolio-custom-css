@@ -2,7 +2,7 @@
 
     padding-top: 1rem;
     padding-right: 1rem;
-    margin-top: 100px;
+    margin-top: 16rem;
 }
 
 
@@ -16,7 +16,8 @@ padding-left: 1.5rem;
 padding-right: 1.5rem;
 flex-direction: column;
 align-items: center;
-background-color: rgb(48, 43, 43);
+/* background-color: rgb(48, 43, 43); */
+background-color: indianred;
 color: white;
 border-right: 0.5rem;
 padding-top: 2rem;
@@ -49,9 +50,13 @@ border-radius: 0.5rem;
 
 
 }
+textarea{
+    margin-top: 1rem;
+}
 
 button{
-    background-color: red;
+    /* background-color: red; */
+    background-color: blue;
     color: white;
     margin-top: 1.5rem;
 padding-left: 1.75rem;
